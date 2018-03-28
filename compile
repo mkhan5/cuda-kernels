@@ -1,0 +1,1 @@
+nvcc -I../../common/inc -I/usr/local/cuda-7.0/include/ -I/home/gpu_users/ahmedw/Intelmkl/Intel/compilers_and_libraries_2016.1.150/linux/mkl/include  gemver.c.c.c -o gemver -L/usr/local/cuda-7.0/lib64 -L/usr/local/cuda-7.0/lib -lcudart  -lcublas -lcusolver -lm

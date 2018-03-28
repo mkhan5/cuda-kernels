@@ -1,0 +1,2 @@
+nvcc -c -I../../common/inc -I/usr/local/cuda-7.0/include/  gramschmidt.c
+g++ -o gemver gramschmidt.o  -L/usr/local/cuda-7.0/lib64 -L/usr/local/cuda-7.0/lib -lcudart  -lcublas -lcusolver -lm
